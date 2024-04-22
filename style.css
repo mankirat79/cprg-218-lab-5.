@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #9f9797; 
+    color: #333; 
+}
+
+.navigation-menu {
+    background-color: #64958f; 
+    padding: 10px;
+}
+.navigation-menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+.navigation-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.navigation-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero-banner {
+    position: relative;
+    text-align: center;
+    background-color: #64958f; 
+    color: #464242; 
+}
+.hero-banner img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.book-appointment-btn {
+    background-color: #7b0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+
+.featured-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px;
+    justify-content: center;  
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+.featured-services .service {
+    border: 1px solid #141414;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+.featured-services .service img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.featured-services .service h3,
+.featured-services .service p {
+    padding: 10px;
+}
+
+
+.accordion {
+    background-color: #e0e0e0; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-btn {
+    background-color: #64958f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+
+.panel {
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+
+.accordion-item.active .panel {
+    display: block;
+}
+
+
+.contact-form {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #64958f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #111010;
+}
+
+
+.footer {
+    background-color: #000000; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.legal-links {
+    font-size: 0.9rem;
+}
